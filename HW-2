@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Задание 1
+        // с=2, т.к к а=1 затем к нему применили префиксивное возрастание на 1;
+        // d=1 т.к к b=1 затем к нему применили постфксивное возрастание но оно не заработало т.к нет выражение после которого она должна сработать ;
+        // с=5 т.к в первой операции а=2 затем +1 +2
+        // d=4 т.к b=1 затем +2 +1
+        // а=3 т.к изначально а=1 затем +1 в первой операции и второй +1
+        // b=3 т.к изначально b=1 затем в четвертой операции +1 а после этого во-второй +1
+
+        //Задание 2
+        // var a = 2;
+        // var x = 1 + (a *= 2); // (2*2) +1 =5
+        // console.log(x)
+
+        //Задание 3
+        // var a = 10;
+        // var b = -5;
+        // if (a >= 0 && b >= 0) {
+        //     var x = a - b;
+        //     alert(x);
+        // }
+        // if (a < 0 && b < 0) {
+        //     x = a * b;
+        //     alert(x);
+
+        // }
+        // if ((a * b) < 0) { //не знаю на сколько правильно более логичного нечего не придумал
+        //     x = a + b;
+        //     alert(x);
+        //}
+        //Задание 4
+        // let number = 0
+        // switch (number) {
+        //     case 0:
+        //         console.log(0)
+        //     case 1:
+        //         console.log(1)
+        //     case 2:
+        //         console.log(2)
+        //     case 3:
+        //         console.log(3)
+        //     case 4:
+        //         console.log(4)
+        //     case 5:
+        //         console.log(5)
+        //     case 6:
+        //         console.log(6)
+        //     case 7:
+        //         console.log(7)
+        //     case 8:
+        //         console.log(8)
+        //     case 9:
+        //         console.log(9)
+        //     case 10:
+        //         console.log(10)
+        //     case 11:
+        //         console.log(11)
+        //     case 12:
+        //         console.log(12)
+        //     case 13:
+        //         console.log(13)
+        //     case 14:
+        //         console.log(14)
+        //     case 15:
+        //         console.log(15)
+        // }
+        //Задание 5
+
+        // function Addition(arg1, arg2) {
+        //     return arg1 + arg2;
+
+        // }
+
+        // function Subtraction(arg1, arg2) {
+        //     return arg1 - arg2;
+
+        // }
+
+        // function Multiplication(arg1, arg2) {
+        //     return arg1 * arg2;
+
+        // }
+
+        // function Division(arg1, arg2) {
+        //     return arg1 / arg2;
+
+        // }
+
+        // //Задание 6
+        // function mathOperation(arg1, arg2, operation) {
+
+        //     switch (operation) {
+        //         case 'сложение':
+        //             let getAddition = Addition(arg1, arg2)
+        //             return getAddition;
+        //         case 'вычитание':
+        //             let getSubtraction = Subtraction(arg1, arg2)
+        //             return getSubtraction;
+        //         case 'умножение':
+        //             let getMultiplication = Multiplication(arg1, arg2)
+        //             return getMultiplication;
+        //         case 'деление':
+        //             let getDivision = Division(arg1, arg2)
+        //             return getDivision;
+        //     }
+
+        // }
+        // console.log(mathOperation(5, 5, 'умножение'))
+        //Задание 8
+        // function power(val, pow) {
+        //     if (pow == 1) {
+        //         return val
+        //     } else {
+        //         return val * power(val, pow - 1)
+        //     }
+
+        // }
+        // console.log(power(2, 5))
+    </script>
+
+</body>
+
+</html>
