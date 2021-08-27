@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Задание 1
+        // function checkNumber() {
+        //     while (true) {
+        //         const getNumber = +prompt('введите число')
+
+        //         if (isNaN(getNumber)) {
+        //             alert('Введите число')
+        //             continue
+        //         }
+        //         if (getNumber > 0 && getNumber > 999) {
+        //             let b = {}
+        //             console.log(b)
+        //             continue
+        //         }
+        //         return getNumber;
+        //     }
+        // }
+        // let a = checkNumber();
+        // console.log(a);
+
+        // function numberToObject(a) {
+
+        //     let b = {
+        //         hundreds() {
+        //             hundred = Math.floor(a / 100);
+        //             return hundred;
+        //         },
+        //         dozens() {
+        //             dozen = Math.floor((a - (hundred * 100)) / 10);
+        //             return dozen;
+        //         },
+        //         units() {
+        //             unit = a - ((hundred * 100) + (dozen * 10));
+        //             return unit;
+        //         }
+        //     };
+        //     b.hundreds();
+        //     b.dozens();
+        //     b.units();
+        //     console.log(hundred);
+        //     console.log(dozen);
+        //     console.log(unit);
+        // }
+        // numberToObject(a);
+
+
+
+
+
+
+
+        //Задание 2
+        const basket = {
+            goods: [
+                {
+                    id_product: 111, product: 'Банан', prise: 10, quantiti: 2
+                },
+                {
+                    id_product: 222, product: 'Апельсин', prise: 15, quantiti: 3
+                }
+
+            ],
+
+
+            countBasketPrice() {
+                return this.goods.reduce((totalPrise, cartItem) => totalPrise + cartItem.prise, 0)
+            }
+        };
+
+        console.log(basket.countBasketPrice())
+
+    </script>
+</body>
+
+</html>
